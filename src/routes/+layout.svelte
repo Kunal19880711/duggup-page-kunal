@@ -2,6 +2,6 @@
 	import '../app.pcss';
 </script>
 
-<div>
+<div class="bg-[#FCFCFF]">
 	<slot />
 </div>

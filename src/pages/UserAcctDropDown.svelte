@@ -4,7 +4,7 @@
  
 <DropdownMenu.Root>
   <DropdownMenu.Trigger>
-    <div class="flex flex-row items-center gap-3">
+    <div class="flex flex-row items-center gap-0">
 			<div class="box-border w-13 h-13 border-[0.5px] border-solid border-[#4D4D4D] rounded-full ">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img src="assets/krishna-kiran-photo.png" alt="krishna-kiran-photo" class="rounded-full pt-0.5 pl-0.5" />

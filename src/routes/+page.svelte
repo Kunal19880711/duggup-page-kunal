@@ -9,7 +9,7 @@
 	<meta name="description" content="duggup page" />
 </svelte:head>
 
-<div class="max-w-[1424px] mx-auto">
+<div class="max-w-[1424px] mx-auto px-2">
 	<Header />
 	<Main />
 </div>
