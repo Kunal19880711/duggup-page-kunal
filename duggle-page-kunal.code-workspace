@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.labelFormat": "short",
+    "workbench.tree.indent": 16,
+    "explorer.sortOrder": "filesFirst",
+    "explorer.compactFolders": false,
+    "material-icon-theme.folders.color": "#43a047",
+    "[svelte]": {
+      "editor.defaultFormatter": "svelte.svelte-vscode"
+    }
+  },
+  "extensions": {
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "pushqrdx.inline-html",
+      "eliostruyf.vscode-typescript-exportallmodules",
+      "csstools.postcss",
+      "svelte.svelte-vscode",
+      "fivethree.vscode-svelte-snippets",
+      "pkief.material-icon-theme",
+      "ardenivanov.svelte-intellisense"
+    ],
+    // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+    "unwantedRecommendations": []
+  }
+}
