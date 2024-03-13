@@ -23,7 +23,7 @@
 </script>
 
 <header
-	class="flex flex-row flex-wrap content-start items-center justify-between gap-y-2.5 border-b border-dotted border-b-[#525C69] px-0 pb-0 pt-2.5"
+	class="flex flex-row flex-wrap content-start items-center justify-between gap-y-2.5 border-b border-dotted border-b-[#525C69] pb-0 pt-2.5 fixed w-full max-w-[1424px] mx-auto px-2 top-0 z-10 bg-[#FCFCFF]"
 >
 	<div class="flex flex-1 flex-row items-center gap-1 px-0">
 		<div class="order-1 aspect-square w-7 flex-none grow-0">
