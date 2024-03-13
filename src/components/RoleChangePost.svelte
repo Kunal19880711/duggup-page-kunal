@@ -23,6 +23,7 @@
 
 	import TimelineRow from './TimelineRow.svelte';
 	import LabelText from './LabelText.svelte';
+	import { ChevronUp } from 'lucide-svelte';
 
 	export let roleChangePost: RoleChangePostData;
 </script>
@@ -41,8 +42,13 @@
 		<LabelText>Joined</LabelText>
 		<LabelText>{roleChangePost.joining.month}</LabelText>
 	</div>
-	<div slot="timeline" class="absolute -right-4 top-[40%]">
-		<div class="h-7 w-7 rounded-full border-[9px] border-[#0066FF] bg-white"></div>
+	<div slot="timeline" >
+		<div class="absolute -right-4 top-[40%]">
+			<div class="h-7 w-7 rounded-full border-[9px] border-[#0066FF] bg-white"></div>
+		</div>
+		<div class="absolute -right-3 top-0">
+			<ChevronUp color="#778FB1"/>
+		</div>
 	</div>
 	<div slot="center" class="w-full">
 		<div class="flex w-full flex-col items-start justify-center bg-white px-5 py-4">

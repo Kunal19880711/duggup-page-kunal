@@ -1,7 +1,7 @@
 <script lang="ts">
 	import RoleChangePost from '../components/RoleChangePost.svelte';
-	import PersonInfo, { type Person } from '../components/PersonInfo.svelte';
-	import MonthlyPosts, { type MonthlyPostsData } from '../components/MonthlyPosts.svelte';
+	import PersonInfo from '../components/PersonInfo.svelte';
+	import MonthlyPosts from '../components/MonthlyPosts.svelte';
 	import TimelineContainer from '../components/TimelineContainer.svelte';
 
 	import { person, feeds, FeedType } from './data';
