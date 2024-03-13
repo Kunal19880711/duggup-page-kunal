@@ -5,7 +5,7 @@
 
 	import ImageCard from '../components/ImageCard.svelte';
 	import TimelineRow from '../components/TimelineRow.svelte';
-	import TimelineText from '../components/TimelineText.svelte';
+	import LabelText from '../components/LabelText.svelte';
 </script>
 
 <div class="grid grid-cols-[20%_60%_20%] pr-52">
@@ -38,7 +38,7 @@
 							<img src="assets/duggle-logo.png" alt="duggle-logo" class="rounded-full" />
 						</div>
 						<div class="text-right text-base font-bold leading-5 text-[#141618]">Duggup</div>
-						<TimelineText>Co-Founder and CEO</TimelineText>
+						<LabelText>Co-Founder and CEO</LabelText>
 					</div>
 				</div>
 				<div class="flex flex-row justify-between">
@@ -69,10 +69,10 @@
 	</TimelineRow>
 	<TimelineRow>
 		<div slot="left">
-			<TimelineText className="pt-4">Dec 2023</TimelineText>
+			<LabelText className="pt-4">Dec 2023</LabelText>
 		</div>
 		<div slot="timeline" class="absolute -right-2 top-[50%]">
-			<div class="h-4 w-4 rounded-full border-[3px] border-[#0066FF]"></div>
+			<div class="h-4 w-4 rounded-full border-[3px] border-[#0066FF] bg-white"></div>
 		</div>
 		<div slot="center" class="flex gap-9">
 			<ImageCard imgUrl="assets/steve-jobs.jpeg">
@@ -89,26 +89,26 @@
 				<img src="assets/duggle-logo.png" alt="duggle-logo" class="rounded-full" />
 			</div>
 			<div class="text-right text-base font-bold leading-5 text-[#141618]">Duggup</div>
-			<TimelineText>San Francisco Bay Area</TimelineText>
-			<TimelineText>Joined</TimelineText>
-			<TimelineText>Nov 2023</TimelineText>
+			<LabelText>San Francisco Bay Area</LabelText>
+			<LabelText>Joined</LabelText>
+			<LabelText>Nov 2023</LabelText>
 		</div>
-		<div slot="timeline" class="absolute -right-4 top-[40%]">
+		<div slot="timeline" class="absolute -right-3.5 top-[40%] bg-white">
 			<div class="h-7 w-7 rounded-full border-[9px] border-[#0066FF]"></div>
 		</div>
 		<div slot="center" class="w-full">
 			<div class="flex w-full flex-col items-start justify-center bg-white px-5 py-4">
 				<div class="text-nowrap text-xl font-bold leading-8 text-[#141618]">Co-Founder and CEO</div>
-				<TimelineText>Full-time <Dot class="pb-2" /> Remote</TimelineText>
+				<LabelText>Full-time <Dot class="pb-2" /> Remote</LabelText>
 			</div>
 		</div>
 	</TimelineRow>
 	<TimelineRow>
 		<div slot="left">
-			<TimelineText className="pt-4">Dec 2023</TimelineText>
+			<LabelText className="pt-4">Dec 2023</LabelText>
 		</div>
 		<div slot="timeline" class="absolute -right-2 top-[50%]">
-			<div class="h-4 w-4 rounded-full border-[3px] border-[#0066FF]"></div>
+			<div class="h-4 w-4 rounded-full border-[3px] border-[#0066FF] bg-white"></div>
 		</div>
 		<div slot="center" class="flex gap-9">
 			<ImageCard imgUrl="assets/desktop.jpeg">
@@ -125,17 +125,17 @@
 				<img src="assets/betterup-logo.jpeg" alt="betterup-logo" class="rounded-full" />
 			</div>
 			<div class="text-right text-base font-bold leading-[19px] text-[#141618]">BetterUp</div>
-			<TimelineText>San Francisco Bay Area</TimelineText>
-			<TimelineText>Joined</TimelineText>
-			<TimelineText>Nov 2023</TimelineText>
+			<LabelText>San Francisco Bay Area</LabelText>
+			<LabelText>Joined</LabelText>
+			<LabelText>Nov 2023</LabelText>
 		</div>
 		<div slot="timeline" class="absolute -right-4 top-[40%]">
-			<div class="h-7 w-7 rounded-full border-[9px] border-[#0066FF]"></div>
+			<div class="h-7 w-7 rounded-full border-[9px] border-[#0066FF] bg-white"></div>
 		</div>
 		<div slot="center" class="w-full">
 			<div class="flex w-full flex-col items-start justify-center bg-white px-5 py-4">
 				<div class="text-nowrap text-xl font-bold leading-8 text-[#141618]">VP Engineering</div>
-				<TimelineText>Full-time</TimelineText>
+				<LabelText>Full-time</LabelText>
 			</div>
 		</div>
 	</TimelineRow>
