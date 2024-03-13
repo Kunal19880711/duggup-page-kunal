@@ -1,7 +1,6 @@
 <script lang="ts">
 	import AppButton from '../components/AppButton.svelte';
 
-	import { Button } from '$lib/components/ui/button';
 	import NavBar, { type NavLinkInfo } from '../components/NavBar.svelte';
 	import UserAcctDropDown from './UserAcctDropDown.svelte';
 	import { SquarePlus } from 'lucide-svelte';
@@ -37,7 +36,7 @@
 	<div class="flex flex-row items-center justify-between gap-5 py-2.5">
 		<NavBar {links}></NavBar>
 		<AppButton>
-			<SquarePlus slot="prefix-icon" color="#4D4D4D" strokeWidth={1.5} size={16} />
+			<SquarePlus slot="prefix-icon" strokeWidth={1.5} size={16} />
 			Post
 		</AppButton>
 
