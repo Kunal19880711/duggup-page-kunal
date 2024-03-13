@@ -43,7 +43,7 @@
 				</div>
 				<div class="flex flex-row justify-between">
 					<Button variant="outline" class="border-[#4D4D4D] shadow-[0px_4px_0px_#4D4D4D]">
-						<div class="flex flex-row items-center px-4">
+						<div class="flex flex-row items-center">
 							<div class="px-2 text-sm font-normal capitalize not-italic leading-5 text-[#4D4D4D]">
 								Follow
 							</div>
