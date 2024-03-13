@@ -8,6 +8,7 @@
 <Button
 	variant="outline"
 	class={`color-[#4D4D4D] border-[0.5px] border-solid  border-[#4D4D4D] text-[#4D4D4D] ${shadowClass} hover:border-[#0066FF] hover:bg-[#0066FF] hover:text-white hover:shadow-[0px_2px_0px_#003A91]`}
+	on:click
 >
 	<div class="flex flex-row items-center">
 		<slot name="prefix-icon"><!-- optional fallback --></slot>

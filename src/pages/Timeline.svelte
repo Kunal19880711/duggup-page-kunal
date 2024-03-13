@@ -2,6 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import ExternalLink from 'lucide-svelte/icons/external-link';
 	import Dot from 'lucide-svelte/icons/dot';
+	import { isFollowed } from '../store';
 
 	import ImageCard from '../components/ImageCard.svelte';
 	import TimelineRow from '../components/TimelineRow.svelte';
@@ -43,8 +44,12 @@
 					</div>
 				</div>
 				<div class="flex flex-row justify-between">
-					<AppButton>
-						Follow
+					<AppButton isActive={$isFollowed} on:click={() => $isFollowed = true}>
+						{#if $isFollowed}
+							Followed
+						{:else}
+							Follow
+						{/if}
 					</AppButton>
 					<div class="flex justify-end">
 						<Button
