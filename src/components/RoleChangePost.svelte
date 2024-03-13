@@ -37,7 +37,7 @@
 				class="rounded-full"
 			/>
 		</div>
-		<div class="text-right text-base font-bold leading-[19px] text-[#141618]">BetterUp</div>
+		<div class="text-right text-base font-bold leading-[19px] text-[#141618]">{roleChangePost.company.name}</div>
 		<LabelText>{roleChangePost.joining.location}</LabelText>
 		<LabelText>Joined</LabelText>
 		<LabelText>{roleChangePost.joining.month}</LabelText>
