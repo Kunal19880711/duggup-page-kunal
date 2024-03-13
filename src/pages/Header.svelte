@@ -29,9 +29,9 @@
 >
 	<div class="flex flex-1 flex-row items-center gap-1">
 		<div class="aspect-square w-7">
-			<img src="/assets/duggle-logo.png" alt="duggle-logo" />
+			<img src="assets/duggle-logo.png" alt="duggle-logo" />
 		</div>
-		<div class="text-[1.75rem] text-[#333]">duggup</div>
+		<div class="text-3xl font-semibold text-[#333]">duggup</div>
 	</div>
 	<div class="flex flex-row items-center justify-between gap-5 py-2.5">
 		<NavBar {links}></NavBar>

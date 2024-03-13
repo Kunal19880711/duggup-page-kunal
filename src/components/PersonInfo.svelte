@@ -23,7 +23,7 @@
 <TimelineRow useFullLength={true}>
 	<div slot="timeline" class="absolute -right-12 -top-3">
 		<div class="flex flex-col items-center gap-3 bg-white">
-			<div class="box-border h-24 w-24 rounded-full border-[0.5px] border-solid border-[#4D4D4D]">
+			<div class="box-border h-24 w-24 rounded-full border-2  border-solid border-[#EAEFF5]">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img
 					src={person.imgUrl}
