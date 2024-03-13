@@ -6,6 +6,7 @@
 	import ImageCard from '../components/ImageCard.svelte';
 	import TimelineRow from '../components/TimelineRow.svelte';
 	import LabelText from '../components/LabelText.svelte';
+	import AppButton from '../components/AppButton.svelte';
 </script>
 
 <div class="grid grid-cols-[20%_60%_20%] pr-52">
@@ -42,13 +43,9 @@
 					</div>
 				</div>
 				<div class="flex flex-row justify-between">
-					<Button variant="outline" class="border-[#4D4D4D] shadow-[0px_4px_0px_#4D4D4D]">
-						<div class="flex flex-row items-center">
-							<div class="px-2 text-sm font-normal capitalize not-italic leading-5 text-[#4D4D4D]">
-								Follow
-							</div>
-						</div>
-					</Button>
+					<AppButton>
+						Follow
+					</AppButton>
 					<div class="flex justify-end">
 						<Button
 							variant="link"

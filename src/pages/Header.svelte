@@ -1,7 +1,10 @@
 <script lang="ts">
+	import AppButton from '../components/AppButton.svelte';
+
 	import { Button } from '$lib/components/ui/button';
 	import NavBar, { type NavLinkInfo } from '../components/NavBar.svelte';
 	import UserAcctDropDown from './UserAcctDropDown.svelte';
+	import { SquarePlus } from 'lucide-svelte';
 
 	const links: NavLinkInfo[] = [
 		{
@@ -23,7 +26,7 @@
 </script>
 
 <header
-	class="flex flex-row flex-wrap content-start items-center justify-between gap-y-2.5 border-b border-dotted border-b-[#525C69] pb-0 pt-2.5 fixed w-full max-w-[1424px] mx-auto px-2 top-0 z-10 bg-[#FCFCFF]"
+	class="fixed top-0 z-10 mx-auto flex w-full max-w-[1424px] flex-row flex-wrap content-start items-center justify-between gap-y-2.5 border-b border-dotted border-b-[#525C69] bg-[#FCFCFF] px-2 pb-0 pt-2.5"
 >
 	<div class="flex flex-1 flex-row items-center gap-1">
 		<div class="aspect-square w-7">
@@ -33,14 +36,10 @@
 	</div>
 	<div class="flex flex-row items-center justify-between gap-5 py-2.5">
 		<NavBar {links}></NavBar>
-		<Button variant="outline" class="border-[#4D4D4D] shadow-[0px_4px_0px_#4D4D4D]">
-			<div class="flex flex-row items-center">
-				<i class="fa-regular fa-square-plus pr-1 text-[#4D4D4D]"></i>
-				<div class="px-2 text-sm font-normal capitalize not-italic leading-5 text-[#4D4D4D]">
-					Post
-				</div>
-			</div>
-		</Button>
+		<AppButton>
+			<SquarePlus slot="prefix-icon" color="#4D4D4D" strokeWidth={1.5} size={16} />
+			Post
+		</AppButton>
 
 		<UserAcctDropDown />
 	</div>
